@@ -36,9 +36,9 @@ div.main{
     margin-top: 40px;
 }
 footer{
-    background-color: rgb(198, 198, 198);
-    font-size: 0.5em;
+    background-color: rgb(174, 174, 174);
     text-align: center;
+    padding: 2px 0 2px 0;
 }
 img#logo{
     max-width: 100%;

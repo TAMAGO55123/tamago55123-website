@@ -43,3 +43,33 @@ footer{
 img#logo{
     max-width: 100%;
 }
+div#SocialLinks div{
+    text-align: center;
+    border: 1px solid rgb(45, 183, 233);
+    background-color: aliceblue;
+}
+div#SocialLinks a{
+    color: black;
+    text-decoration: none;
+    font-size: 1.5em;
+}
+.youtube::before{
+    content: "\f167";
+    font-family:"Font Awesome 5 Free","Font Awesome 5 Brands";
+    color: red;
+}
+.twitter::before{
+    content: "\e61b";
+    font-family:"Font Awesome 5 Free","Font Awesome 5 Brands";
+    color: rgb(103, 103, 103);
+}
+.twitch::before{
+    content: "\f1e8";
+    font-family:"Font Awesome 5 Free","Font Awesome 5 Brands";
+    color: rgb(161,114,247);
+}
+.niconico::before{
+    content: "\e900";
+    font-family:"niconico";
+    color: black;
+}

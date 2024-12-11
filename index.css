@@ -46,7 +46,7 @@ img#logo{
 div#SocialLinks div{
     text-align: center;
     border: 1px solid rgb(45, 183, 233);
-    background-color: aliceblue;
+    background-color: rgb(246, 250, 253);
 }
 div#SocialLinks a{
     color: black;
@@ -61,7 +61,7 @@ div#SocialLinks a{
 .twitter::before{
     content: "\e61b";
     font-family:"Font Awesome 5 Free","Font Awesome 5 Brands";
-    color: rgb(103, 103, 103);
+    color: black;
 }
 .twitch::before{
     content: "\f1e8";
@@ -72,4 +72,14 @@ div#SocialLinks a{
     content: "\e900";
     font-family:"niconico";
     color: black;
+}
+.github::before{
+    content: "\f09b";
+    font-family:"Font Awesome 5 Free","Font Awesome 5 Brands";
+    color: black;
+}
+.xbox::before{
+    content: "\f412";
+    font-family:"Font Awesome 5 Free","Font Awesome 5 Brands";
+    color: green;
 }
